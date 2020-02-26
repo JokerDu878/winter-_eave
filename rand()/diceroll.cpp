@@ -1,11 +1,11 @@
 #include "diceroll.h"
 
 int roll_count = 0;
-static int  rollem(int sides)  //Í¶÷»×Ó
+static int  rollem(int sides)  //æŠ•éª°å­
 {
 	int roll;
 
-	roll = rand() % sides +1;//¼ÆËã÷»×ÓµÄ´óĞ¡
+	roll = rand() % sides +1;//éª°å­ç‚¹æ•°ï¼ˆæ ¹æ®é¢æ•°ï¼‰
 	++roll_count;
 	
 	return roll;
